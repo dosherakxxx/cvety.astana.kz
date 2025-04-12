@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="Tooplate">
+
+    <title>Cvetyastana.kz - Цветочный магазин</title>
+
+    <!-- CSS FILES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;300;400;600;700&display=swap"
+        rel="stylesheet">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+    <link href="css/owl.carousel.min.css" rel="stylesheet">
+
+    <link href="css/style.css" rel="stylesheet">
+
+    <style>
+        :root {
+            --primary-color: #c30068;
+        }
+
+        .navbar,
+        .footer,
+        .hero-section,
+        .custom-btn,
+        .badge {
+            background-color: var(--primary-color) !important;
+        }
+
+        .navbar-brand,
+        .nav-link,
+        .hero-title,
+        .text-white,
+        .custom-btn,
+        .badge {
+            color: #ffffff !important;
+        }
+
+        .nav-link:hover,
+        .custom-btn:hover {
+            color: #ffccdd !important;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-light fixed-top shadow-lg">
+        <div class="container">
+            <div class="w-100 text-center mb-2">
+                <p class="text-white small mb-0">Телефон: <a href="tel:+77001234567" class="text-white">+7 (707) 951-27-48</a></p>
+            </div>
+            <a class="navbar-brand" href="index.html">Cvetyastana.kz</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link click-scroll" href="#section_1">Главная</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link click-scroll" href="#catalog">Каталог</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link click-scroll" href="#section_4">Отзывы</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link click-scroll" href="#section_5">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+
+        <section class="hero-section hero-slide d-flex justify-content-center align-items-center" id="section_1">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-8 col-12 text-center mx-auto">
+                        <div class="hero-section-text">
+                            <h1 class="hero-title text-white mt-2 mb-4">Украсьте свой мир цветами</h1>
+                            <button class="catalog-btn"
+                                onclick="document.getElementById('catalog').scrollIntoView({ behavior: 'smooth' });">
+                                <i class="bi bi-arrow-right"></i>
+                                <span class="ms-2">Перейти в каталог</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="catalog-section section-padding" id="catalog">
+            <div class="container">
+                <h2 class="text-center mb-4">Каталог</h2>
+                <div class="row">
+                    <!-- Example Catalog Item -->
+                    <div class="col-md-4 mb-4">
+                        <div class="catalog-item shadow-lg position-relative">
+                            <img src="images/cvety_catalog/1596381209_22-p-nezhnie-buketi-tsvetov-pinterest-39.jpg" class="img-fluid" alt="Розы">
+                            <div class="catalog-info">
+                                <h4>Букет "Айлин"</h4>
+                                <p>Букет из кустовых роз в нежном оформлении</p>
+                                <p class="price">19,500₸</p>
+                                <div class="catalog-buttons">
+                                    <a href="https://wa.me/+77079512748?text=Здравствуйте!%20Я%20хочу%20заказать%20букет." 
+                                       target="_blank" 
+                                       class="btn btn-order">Заказать</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Bouquet 1 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="catalog-item shadow-lg position-relative">
+                            <img src="images/cvety_catalog/1596381209_22-p-nezhnie-buketi-tsvetov-pinterest-39.jpg" class="img-fluid" alt="Букет 'Небо'">
+                            <div class="catalog-info">
+                                <h4>Букет "Небо"</h4>
+                                <p>Букет из гортензии в нежном оформлении</p>
+                                <p class="price">55,000₸</p>
+                                <div class="catalog-buttons">
+                                    <a href="https://wa.me/+77079512748?text=Здравствуйте!%20Я%20хочу%20заказать%20букет." 
+                                       target="_blank" 
+                                       class="btn btn-order">Заказать</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Bouquet 2 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="catalog-item shadow-lg position-relative">
+                            <img src="images/cvety_catalog/1596381209_22-p-nezhnie-buketi-tsvetov-pinterest-39.jpg" class="img-fluid" alt="Букет №4">
+                            <div class="catalog-info">
+                                <h4>Букет №4</h4>
+                                <p>Белая хризантема в нежном оформлении</p>
+                                <p class="price">16,500₸</p>
+                                <div class="catalog-buttons">
+                                    <a href="https://wa.me/+77079512748?text=Здравствуйте!%20Я%20хочу%20заказать%20букет." 
+                                       target="_blank" 
+                                       class="btn btn-order">Заказать</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Bouquet 3 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="catalog-item shadow-lg position-relative">
+                            <img src="images/cvety_catalog/1596381209_22-p-nezhnie-buketi-tsvetov-pinterest-39.jpg" class="img-fluid" alt="Букет №14">
+                            <div class="catalog-info">
+                                <h4>Букет №14</h4>
+                                <p>Розы в нежном оформлении</p>
+                                <p class="price">24,300₸</p>
+                                <div class="catalog-buttons">
+                                    <a href="https://wa.me/+77079512748?text=Здравствуйте!%20Я%20хочу%20заказать%20букет." 
+                                       target="_blank" 
+                                       class="btn btn-order">Заказать</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Bouquet 4 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="catalog-item shadow-lg position-relative">
+                            <img src="images/cvety_catalog/1596381209_22-p-nezhnie-buketi-tsvetov-pinterest-39.jpg" class="img-fluid" alt="Букет 'Розовая 2'">
+                            <div class="catalog-info">
+                                <h4>Букет "Розовая 2"</h4>
+                                <p>Букет из пионовидных роз в нежном оформлении</p>
+                                <p class="price">49,000₸</p>
+                                <div class="catalog-buttons">
+                                    <a href="https://wa.me/+77079512748?text=Здравствуйте!%20Я%20хочу%20заказать%20букет." 
+                                       target="_blank" 
+                                       class="btn btn-order">Заказать</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Bouquet 5 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="catalog-item shadow-lg position-relative">
+                            <img src="images/cvety_catalog/1596381209_22-p-nezhnie-buketi-tsvetov-pinterest-39.jpg" class="img-fluid" alt="Букет 'Весенний'">
+                            <div class="catalog-info">
+                                <h4>Букет "Весенний"</h4>
+                                <p>Тюльпаны и ирисы в ярком оформлении</p>
+                                <p class="price">32,000₸</p>
+                                <div class="catalog-buttons">
+                                    <a href="https://wa.me/+77079512748?text=Здравствуйте!%20Я%20хочу%20заказать%20букет." 
+                                       target="_blank" 
+                                       class="btn btn-order">Заказать</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Bouquet 6 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="catalog-item shadow-lg position-relative">
+                            <img src="images/cvety_catalog/1596381209_22-p-nezhnie-buketi-tsvetov-pinterest-39.jpg" class="img-fluid" alt="Букет 'Солнечный'">
+                            <div class="catalog-info">
+                                <h4>Букет "Солнечный"</h4>
+                                <p>Подсолнухи и ромашки в летнем стиле</p>
+                                <p class="price">28,500₸</p>
+                                <div class="catalog-buttons">
+                                    <a href="https://wa.me/+77079512748?text=Здравствуйте!%20Я%20хочу%20заказать%20букет." 
+                                       target="_blank" 
+                                       class="btn btn-order">Заказать</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add more items as needed -->
+                </div>
+            </div>
+        </section>
+
+        <section class="reviews-section section-padding" id="section_4">
+            <div class="container">
+                <h2 class="text-center mb-4">Отзывы</h2>
+                <div class="row" id="reviews-container">
+                    <!-- Initial Reviews -->
+                    <div class="col-md-4 mb-4">
+                        <div class="review-item shadow-lg p-4">
+                            <p>"Прекрасный магазин! Цветы всегда свежие и красиво оформлены."</p>
+                            <h5 class="mt-3">- Анна</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="review-item shadow-lg p-4">
+                            <p>"Заказывал букет на день рождения, всё было идеально. Спасибо!"</p>
+                            <h5 class="mt-3">- Дмитрий</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="review-item shadow-lg p-4">
+                            <p>"Очень довольна сервисом и качеством цветов. Рекомендую всем!"</p>
+                            <h5 class="mt-3">- Елена</h5>
+                        </div>
+                    </div>
+                    <!-- Additional Reviews -->
+                    <div class="col-md-4 mb-4 d-none">
+                        <div class="review-item shadow-lg p-4">
+                            <p>"Отличный выбор цветов и быстрая доставка. Спасибо за сервис!"</p>
+                            <h5 class="mt-3">- Олег</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4 d-none">
+                        <div class="review-item shadow-lg p-4">
+                            <p>"Цветы были свежими и ароматными. Очень понравилось!"</p>
+                            <h5 class="mt-3">- Мария</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4 d-none">
+                        <div class="review-item shadow-lg p-4">
+                            <p>"Заказывала букет для мамы, она была в восторге. Спасибо!"</p>
+                            <h5 class="mt-3">- Виктория</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4 d-none">
+                        <div class="review-item shadow-lg p-4">
+                            <p>"Очень удобный сайт и приятный персонал. Рекомендую!"</p>
+                            <h5 class="mt-3">- Сергей</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4 d-none">
+                        <div class="review-item shadow-lg p-4">
+                            <p>"Букет превзошел все ожидания. Спасибо за качество!"</p>
+                            <h5 class="mt-3">- Наталья</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4 d-none">
+                        <div class="review-item shadow-lg p-4">
+                            <p>"Сервис на высшем уровне! Буду заказывать ещё."</p>
+                            <h5 class="mt-3">- Алексей</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-4">
+                    <button class="btn btn-primary" id="load-more-reviews">Далее</button>
+                    <button class="btn btn-secondary d-none" id="collapse-reviews">Свернуть</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section section-padding" id="section_5">
+            <div class="container">
+                <h2 class="text-center mb-4">Контакты</h2>
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <h4>Наши адреса</h4>
+                        <div class="address">
+                            <p><strong>1 Филиал:</strong> Улица Жанайдар Жирентаев, 14, Астана, Казахстан</p>
+                            <p><strong>2 Филиал:</strong> Улица Кенен Азербаев, 8, Астана, Казахстан</p>
+                        </div>
+                        <h4>Телефон</h4>
+                        <p><a href="tel:+77079512748">+7 (707) 951-27-48</a></p>
+                        <h4>Email</h4>
+                        <p><a href="mailto:guma1984@mail.ru">guma1984@mail.ru</a></p>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <h4>Мы на карте</h4>
+                        <iframe class="yandex-map"
+                            src="https://yandex.ru/map-widget/v1/?um=constructor%3A1f2e3d4c5b6a7g8h9i0j1k2l3m4n5o6p7q8r9s0t1u2v3w4x5y6z7&ll=71.487301%2C51.138948&z=13&pt=71.474621%2C51.151822~71.499981%2C51.126075"
+                            width="100%" height="300" frameborder="0"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- JAVASCRIPT FILES -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/click-scroll.js"></script>
+    <script src="js/jquery.backstretch.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>
